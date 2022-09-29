@@ -17,11 +17,13 @@ public class ListOfTeamMates {
 
     m = new TeamMate("Felipe_S", "Felipe");
     list.add(m);
-
+    
+    System.out.println("Nomes:");
     for (TeamMate item : list) {
       System.out.println(item.getname());
     }
-
+    
+    System.out.println("Quem está online é:");
     for (TeamMate item : list) {
       if(item.getonline() == true){
         System.out.println(item.getuserId());
