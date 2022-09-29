@@ -30,6 +30,6 @@ public class ListOfTeamMates {
       }
       
     }
-    
+    list.clear();
   }
 }
